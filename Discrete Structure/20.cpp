@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int conjuction(int a, int b){
+int disjuction(int a, int b){
 	if(a==1 || b==1)
 		return 1;
 	else
@@ -13,7 +13,7 @@ int main(){
 	cout<<"a\tb\tk"<<endl;
 	for(a=0;a<=1;a++){
 		for(b=0;b<=1;b++){
-			k=conjuction(a,b);
+			k=disjuction(a,b);
 			cout<<a<<"\t"<<b<<"\t"<<k<<endl;
 		}
 	}
