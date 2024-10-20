@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int bimplication(int a, int b){
+int bi_implication(int a, int b){
 	if((a==0 && b==0) || (a==1 && b==1))
 		return 0;
 	else
@@ -13,7 +13,7 @@ int main(){
 	cout<<"a\tb\tk"<<endl;
 	for(a=0;a<=1;a++){
 		for(b=0;b<=1;b++){
-			k=bimplication(a,b);
+			k=bi_implication(a,b);
 			cout<<a<<"\t"<<b<<"\t"<<k<<endl;
 		}
 	}
