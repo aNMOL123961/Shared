@@ -1,0 +1,27 @@
+*{
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10% ;
+        border: 1rem solid red;
+    }
+    .title{
+        background-color: aqua
+        ;
+    }
+    .list{
+        background-color: aquamarine;
+        padding-left: 15%;
+    }
+    .form{
+        color: blue;
+    }
+    .table{
+        background-color: aliceblue;
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
